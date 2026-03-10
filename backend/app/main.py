@@ -19,7 +19,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-ALLOWED_IMAGE_TYPES = {"image/png", "image/jpeg", "image/jpg", "image/tiff", "image/bmp", "image/webp"}
+ALLOWED_IMAGE_TYPES = {"image/png", "image/jpeg", "image/jpg", "image/tiff", "image/bmp", "image/webp", "image/heic", "image/heif"}
 ALLOWED_PDF_TYPES = {"application/pdf"}
 MAX_FILE_SIZE = 10 * 1024 * 1024  # 10 MB
 

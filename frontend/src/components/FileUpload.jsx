@@ -33,7 +33,7 @@ export default function FileUpload({ onFileSelected, isProcessing }) {
       >
         <div className="icon">&#128196;</div>
         <h3>{fileName ? fileName : 'Drop your load ticket here'}</h3>
-        <p>Supports PNG, JPG, TIFF, BMP, WebP, PDF (max 10 MB)</p>
+        <p>Supports PNG, JPG, TIFF, BMP, WebP, HEIC, PDF (max 10 MB)</p>
         {isProcessing && (
           <p style={{ marginTop: 12 }}>
             <span className="spinner" /> Processing OCR...
